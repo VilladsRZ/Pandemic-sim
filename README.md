@@ -1,7 +1,7 @@
 # Pandemic_sim
  
-Class Parameters:
-N: sets the population size at N*N 
+Class Parameters: <br>
+N                  --> sets the population size at N*N <br>
 duration           --> sets the time for the simulation (in days) <br>
 r_0                --> sets the initial population infection <br>
 infection_rate     --> sets the average chance for infection at encounter <br>
