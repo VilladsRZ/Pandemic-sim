@@ -2,10 +2,10 @@
  
 Class Parameters:
 N: sets the population size at N*N 
- duration           --> sets the time for the simulation (in days)
- r_0                --> sets the initial population infection
- infection_rate     --> sets the average chance for infection at encounter
- mortality_rate:    --> sets the chance for the individual to expire at when infected
- sociability:       --> sets the social-sphere of each person. A value of 1 is every adjecent individual, a value of 2 extends this perimeter by 1 and so on
- transmission_time  --> sets the amount of time an individual can transmit the disease after infection
- imunity_time       --> sets the amount of time of an individual is imune after recovery
+duration           --> sets the time for the simulation (in days) \\
+r_0                --> sets the initial population infection
+infection_rate     --> sets the average chance for infection at encounter
+mortality_rate:    --> sets the chance for the individual to expire at when infected
+sociability:       --> sets the social-sphere of each person. A value of 1 is every adjecent individual, a value of 2 extends this perimeter by 1 and so on
+transmission_time  --> sets the amount of time an individual can transmit the disease after infection
+imunity_time       --> sets the amount of time of an individual is imune after recovery
