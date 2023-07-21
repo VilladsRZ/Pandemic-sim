@@ -1,4 +1,4 @@
-# Pandemic_sim
+# Pandemic-sim
 This is a simulator of how a disease (or any infectious mechanisms) spreads in a population. Below are the following class arguments. <br> <br>
 N                  --> sets the population size at N*N. <br>
 duration           --> sets the time for the simulation (in days). <br>
