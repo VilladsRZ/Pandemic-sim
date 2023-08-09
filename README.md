@@ -1,9 +1,9 @@
 # Pandemic-sim
 This is a non deterministic simulator of how a disease (or any infectious mechanisms) spreads in a population. Every individual has a unique healthscore emulating different factors such as imunesystem / age / illnesses that contribute to how susceptible they are to infection. Everyday, every invividual will interact with a random number of people within their socialsphere given the argument "daily_contact_rate". Additional to the individuals health, these encounters are subject to an additional element of randomness, emulating the different way people interact. The healthscore also changes the recovery time for each individual a little bit from the average so that healthier individuals recover faster.  <br> <br>
-How to use: br><br>
-pip install requirements and download pandsim.py to folder br><br>
+How to use: <br><br>
+pip install requirements and download pandsim.py to folder <br><br>
 import by running --> from pandsim import population <br><br>
-See also examples. br><br>
+See also examples. 
 Below are the following class arguments. <br><br>
 N                  --> sets the population size at N*N. <br>
 duration           --> sets the time for the simulation (in days). <br>
