@@ -1,5 +1,7 @@
 # Pandemic-sim
-This is a non deterministic simulator of how a disease (or any infectious mechanisms) spreads in a population. Below are the following class arguments. <br> <br>
+This is a non deterministic simulator of how a disease (or any infectious mechanisms) spreads in a population. Every individual has a unique healthscore emulating different factor such as imunesystem / age / diseases that indicates how susceptible they are to infection. Everyday, every invividual will interact with a random number of people within their socialsphere given the argument "daily_contact_rate". Additional to the individuals health, all encounters include a random interaction factor for the infection chance, emulating the different way people interact.  <br> <br>
+import by running --> from pandsim import population <br>
+Below are the following class arguments.
 N                  --> sets the population size at N*N. <br>
 duration           --> sets the time for the simulation (in days). <br>
 r_0                --> sets the initial population infection. <br>
