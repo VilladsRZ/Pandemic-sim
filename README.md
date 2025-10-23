@@ -4,13 +4,16 @@ How to use: <br><br>
 pip install requirements and download pandsim.py to folder <br><br>
 import by running --> from pandsim import population <br><br>
 See also examples. 
-Argument,Description
-N,Sets the population size at N×N.
-duration,Sets the time for the simulation (in days).
-r_0,Sets the initial population infection.
-infection_rate,Sets the average chance for infection at encounter.
-mortality_rate,Sets the chance for the individual to expire when infected.
-sociability,Sets the social sphere of each person. Given by a (1+2×value)×(1+2×value) matrix centered on the individual.
-daily_contact_rate,Sets the percentage of contact within the given social sphere (where 1 is full contact).
-transmission_time,Sets the amount of time an individual can transmit the disease after infection.
-immunity_time,Sets the amount of time an individual is immune after recovery.
+## Class Arguments
+
+| Argument | Description |
+| :--- | :--- |
+| `N` | Sets the population size at $N \times N$. |
+| `duration` | Sets the time for the simulation (in days). |
+| `r_0` | Sets the initial population infection. |
+| `infection_rate` | Sets the average chance for infection at encounter. |
+| `mortality_rate` | Sets the chance for the individual to expire when infected. |
+| `sociability` | Sets the social sphere of each person. Given by a $(1 + 2 \times \text{value}) \times (1 + 2 \times \text{value})$ matrix centered on the individual. |
+| `daily_contact_rate` | Sets the percentage of contact within the given social sphere (where 1 is full contact). |
+| `transmission_time` | Sets the amount of time an individual can transmit the disease after infection. |
+| `imunity_time` | Sets the amount of time an individual is immune after recovery. |
